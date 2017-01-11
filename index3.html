@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Car Shop: Vechicles</title>
+	
+	<link rel="StyleSheet" style="text/css" href="css/sitecss.css">	
+	
+	<script type="text/javascript" src="js/customise.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Start of the CarWallpaper parallax-->
+	<div class="parallaxCarWallpaperCustom">
+	
+	<!-- Cart link -->
+	<div class="miniCart">
+	<a href="cart.html">Shopping Cart</a>
+	</div>
+	
+	<h1 id="header"><u>The Car Shop: Vechicles</u></h1>
+	<h2>Customise and purchase the vechicle of your choice.</h2>
+
+	</div>
+
+	<!-- Navigation -->
+	<nav> <ul><li><a href="index.html">Home</a> |</li> <li><a href="index2.html">About Us</a> |</li> <li><a href="#">Vehicle</a> |</li> <li><a href="index4.html">Promotions and Deals</a> |</li> <li><a href="index5.html">DEMO</a></li></ul></nav>
+	<hr>
+	
+	<!-- Car Customise Section -->
+	<div class="customCar">
+	<section>
+	
+	<h3>Choose from a range of many Vechicles below. Remember to customise to your personal perference before purchasing!</h3>
+	
+	<!-- Customise Vehicle Java Script Holder-->
+		<main>
+			<div class="container">
+				<div class="car row">
+					<img id="car-image" src="images/x.png" alt="Car Selection"/>
+					<button class="left-button" onclick="onCarChange(-1)">&laquo;</button>
+					<button class="right-button" onclick="onCarChange(+1)">&raquo;</button>
+				</div>
+			</div>
+			<h3>£9,999</h3>
+			<button class="selector button" onclick="addToCart()">Add to Cart</button>
+			
+		</main>
+		
+	</section>
+	</div>
+
+</body>
+
+</html>
